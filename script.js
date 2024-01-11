@@ -2,6 +2,7 @@ var modal = document.getElementById("myModal");
 var btn = document.getElementById("change");
 var kirim = document.getElementById("kirim");
 
+var date = new Date();
 document.getElementById("last-updated").innerText = date.toLocaleDateString("id-ID") + " " + date.toLocaleTimeString("id-ID");
 
 btn.onclick = function () {
