@@ -2,6 +2,8 @@ var modal = document.getElementById("myModal");
 var btn = document.getElementById("change");
 var kirim = document.getElementById("kirim");
 
+document.getElementById("last-updated").innerText = date.toLocaleDateString("id-ID") + " " + date.toLocaleTimeString("id-ID");
+
 btn.onclick = function () {
     pesan.style.display = 'block';
     kirim.style.display = 'block';
