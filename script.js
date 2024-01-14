@@ -17,8 +17,4 @@ kirim.addEventListener("click", () => {
   var wait = document.getElementById("waitTime");
   var newText = pesan.value;
   wait.innerText = newText;
-  function countdownTimer() {}
-  pesan.style.display = "none";
-  kirim.style.display = "none";
-  btn.style.display = "block";
 });
