@@ -30,9 +30,9 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica Neue", "Arial", "Noto Sans", "sans-serif", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   margin: 0;
   padding: 0;
@@ -64,7 +64,7 @@ main .content-container {
 @media (max-width: 900px) {
   .content-container {
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 2rem;
   }
 }
 
@@ -93,12 +93,12 @@ p {
 
 h1 {
   font-size: 2rem;
-  margin: 0 0 2rem 0;
+  margin: 0 0 2rem;
 }
 
 h2 {
   font-size: 1.25rem;
-  margin: 0 0 1.25rem 0;
+  margin: 0 0 1.25rem;
 }
 
 .links {
@@ -150,14 +150,14 @@ button {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .col-25,
   .col-75,
   input[type="submit"] {

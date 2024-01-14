@@ -1,6 +1,7 @@
-var modal = document.getElementById("myModal");
 var btn = document.getElementById("change");
 var kirim = document.getElementById("kirim");
+var pesan = document.getElementById("pesan");
+var wait = document.getElementById("waitTime");
 
 var date = new Date();
 document.getElementById("last-updated").innerText =
@@ -13,8 +14,6 @@ btn.onclick = function () {
 };
 
 kirim.addEventListener("click", () => {
-  var pesan = document.getElementById("pesan");
-  var wait = document.getElementById("waitTime");
   var newText = pesan.value;
   wait.innerText = newText;
 });
