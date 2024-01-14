@@ -30,8 +30,8 @@ html {
 }
 
 body {
-  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
-    "Helvetica Neue", "Arial", "Noto Sans", "sans-serif", "Apple Color Emoji",
+  font-family: system-ui, "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, "Noto Sans", "sans-serif", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   margin: 0;
@@ -158,10 +158,11 @@ button {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-  .col-25,
-  .col-75,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  }
+
+    .col-25,
+    .col-75,
+    input[type="submit"] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
